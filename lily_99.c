@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//¾Å¾Å³Ë·¨±í 
 int main() {
     int i,j;
     int n;
