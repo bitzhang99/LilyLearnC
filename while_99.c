@@ -1,3 +1,12 @@
+/************************************
+Author:  lily
+Version: V1.0.0
+Created: 2024/9/12
+Modified  2024/9/18
+Descrption: 
+this is a function 
+*************************************/
+
 #include <stdio.h>
 
 int main() {
