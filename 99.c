@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main() {
+int main() {
     int i,j,n;
     i = 1;
     j = 1;
