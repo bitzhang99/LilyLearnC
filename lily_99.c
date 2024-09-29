@@ -2,7 +2,7 @@
 // 九九乘法表
 int main() {
     int i,j;
-    int n;
+    // int n;
     i=1;
     j=1;
     printf(" 打印九九乘法表\n");
