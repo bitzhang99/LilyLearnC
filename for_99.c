@@ -1,5 +1,4 @@
-以下是一个简单的C语言程序，用于生成九九乘法表：
-```c
+// 以下是一个简单的C语言程序，用于生成九九乘法表：
 #include <stdio.h>
 
 int main() {
@@ -11,7 +10,7 @@ int main() {
             printf("%d*%d=%-2d  ", j, i, i*j); // 使用%-2d保持对齐
         }
         printf("\n");
-    }
+    }    
 
     return 0;
 }

@@ -25,4 +25,4 @@ $(EXECUTABLE): $(OBJECTS)
  
 # 清理规则
 clean:
-	rm -f $(EXECUTABLE) $(OBJECTS)
+	rm -f $(EXECUTABLE) $(OBJECTS) $(SingleExec)
