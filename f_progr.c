@@ -10,7 +10,8 @@ int main(){
     int summax = 16 , accumlatemax = 256;
 	for(d = 0; d <= summax ; d++) { // d can be 0
 		for(a = 1; a <= summax; a++) { 
-			for(i = 0; i < 4; i++) {
+			for(i = 0; i < 4; i++) 
+			{
 				n[i] = a + (i * d);
 				sum += n[i];
 				accumulate *= n[i];
@@ -21,14 +22,14 @@ int main(){
 				}
     			printf("\n");
                 */
-				if(sum == summax && accumulate == accumlatemax) {
-					for(i = 0; i < 4; i++) {
-						printf("%d ",n[i]);
-					}
-    				printf("d is [%d], a is [%d], sum [%d] accumlate [%d]\n", d, a, sum, accumulate);
-				}	
-                // printf("d=[%d],a=[%d] %d %d \n", d, a, sum, accumulate);
 		    }
+			if(sum == summax && accumulate == accumlatemax) {
+				for(i = 0; i < 4; i++) {
+					printf("%d ",n[i]);
+				}
+    			printf("d is [%d], a is [%d], sum [%d] accumlate [%d]\n", d, a, sum, accumulate);
+			}	
+            // printf("d=[%d],a=[%d] %d %d \n", d, a, sum, accumulate);
 			sum=0;
 			accumulate=1;
 		}

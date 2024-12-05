@@ -9,6 +9,7 @@ int main()
     int accumulate = 1; //前四项之积
     // 1. 16  880 should be defined
     // 2. this is a bug, d can be 0
+    //  16 , 256 
     for(d = 1; d < 9; d++)
     {
         for(a = 1; a < 7; a++)
