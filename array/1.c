@@ -1,4 +1,4 @@
-//(1)	·´ÏòÊä³öÓĞ5¸öÔªËØµÄintÊı×éÖĞ¸÷ÔªËØµÄÖµ¡£
+//(1)	åå‘è¾“å‡ºæœ‰5ä¸ªå…ƒç´ çš„intæ•°ç»„ä¸­å„å…ƒç´ çš„å€¼ã€‚
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -9,12 +9,12 @@ int main(){
 	for(i=0;i<5;i++){
 		a[i]=rand()%(100-2+1);
 	}
-	printf("Ô­Ê¼ÊıÁĞ£º");
+	printf("åŸå§‹æ•°åˆ—ï¼š");
 	for(i=0;i<5;i++){
 		printf("%d\t",a[i]);
 	}
 	printf("\n");
-	printf("ÄæĞòÊıÁĞ£º");
+	printf("é€†åºæ•°åˆ—ï¼š");
 	for(i=4;i>=0;i--){
 		printf("%d\t",a[i]);
 	}
